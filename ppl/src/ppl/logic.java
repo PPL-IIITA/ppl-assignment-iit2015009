@@ -44,7 +44,7 @@ public class logic {
 				if(b_a[j].boy_st == "single" && g_a[i].budget <= b_a[j].budget && 
 				g_a[i].attractive >= b_a[j].minimum_a_r ){
 					b_a[j].boy_st = "commited";
-					//g_a[i].bf_name = b_a[j].name;
+					
 					writer.println(g_a[i].girl_name+" is commited with "+b_a[j].boy_name);
 					break;
 				}
