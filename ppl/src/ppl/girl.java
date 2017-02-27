@@ -29,9 +29,6 @@ public class girl {
     }
 
 
-public static void main(String args[]){
-		girl amit =new girl(5,1,6,"single","amit");
-		System.out.println(amit.budget+"  "+amit.intell+amit.attractive+amit.girl_st+"  "+amit.girl_name);
-	}
+
 
 }
